@@ -2,6 +2,36 @@
 
 Network security is the deployment and monitoring of cyber security solutions to protect your organisation's IT systems from attacks and breaches. It also covers policies surrounding the handling of sensitive information.
 
+## Network Tools 
+
+### Ping
+
+- To test whether the connectio to remote IP address is possible
+- Ping uses ICMP protocol, which works on Network layer.
+- Basic syntax for ping is :   ping <IP Address>
+- Ping can also be used to get IP address of a website domain.
+- Every device supports ping
+- -i switch lets you change the intervals between packets sent
+- -v switch increases the verbose
+
+### TraceRoute
+
+- Traceroute can be used to map the route to your request
+- It allows you to see all intermediate steps of your request until to reaches its target.
+- Uses ICMP in windows and UDP in unix
+- -i : switch to specify the interface
+- runs on internet layer
+
+### WHOIS
+
+- allows your to see the information about the domain name i.e the website address
+
+### Dig
+
+- dig allows us to manually query recursive DNS servers of our choice for information
+- syntax : dig <domain> @<dns-server-ip>
+
+
 ## Network Security threats
 
 - Internal Security Threats : Over 90% of cyberattacks are caused by human error. This can take the form of phishing attacks, careless decision-making, weak passwords, and more.

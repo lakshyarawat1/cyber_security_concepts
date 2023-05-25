@@ -36,3 +36,22 @@ Some limitations of Penetration testing include :
     - Assumed Breach: Start by assuming the attacker has already gained control over some assets, and try to achieve the goals from there. As an example, the red team could receive access to some user's credentials or even a workstation in the internal network.
     - Table-top Exercise:  An over the table simulation where scenarios are discussed between the red and blue teams to evaluate how they would theoretically respond to certain threats. Ideal for situations where doing live simulations might be complicated.
 
+## Teams
+
+- Red Cell : A red cell is the component that makes up the offensive portion of a red team engagement that simulates a given target's strategic and tactical responses.
+
+- Blue Cell : The blue cell is the opposite side of red. It includes all the components defending a target network. The blue cell is typically comprised of blue team members, defenders, internal staff, and an organisation's management.
+
+- White Cell : Serves as referee between red cell activities and blue cell responses during an engagement. Controls the engagement environment/network. 
+
+### Roles 
+
+- Red Team Lead : Plans and organises engagements at a high level—delegates, assistant lead, and operators engagement assignments.
+
+- Red Team Assistant Lead : Assists the team lead in overseeing engagement operations and operators. Can also assist in writing engagement plans and documentation if needed.
+
+- Read Team Operator : Executes assignments delegated by team leads. Interpret and analyse engagement plans from team leads.
+
+## Engagement Structure
+
+- 
