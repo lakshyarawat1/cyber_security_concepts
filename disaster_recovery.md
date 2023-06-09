@@ -15,6 +15,16 @@
     - Recovery
     - Contingency
 
+### Components of Business continuity plan
+
+- List of BCP team members, including multiple contact methods and backup members.
+- Immediate response procedures and checklists ( security and safety procedures )
+- Notification systems and call trees for alerting personnel that the BCP is being enacted.
+- Guidance of management , including designation for authority for specific managers
+- How and when to enact the plan
+- Contact numbers for critical members of the supply chain
+
+
 ### Tools
 
 - Some tools for BC are :
@@ -33,9 +43,21 @@
 
 Disaster recovery relies upon the replication of data and computer processing in an off-premises location not affected by the disaster.
 
-## Incident Recovery
+## Incident Response
 
 Incident response (IR) is the effort to quickly identify an attack, minimize its effects, contain damage, and remediate the cause to reduce the risk of future incidents.
+
+- Breach is the loss of control, compromise, unauthorized disclosure, unauthorized acquisition or any similar occurance where a person other than an authorized user accesses or potentially accesses identifiable information.
+- Event is any observable occcurance in a network or system.
+- Incident is an event that actually or potentially jeopardizes the CIA of the system or information.
+- Intrusion is the event or combination of events that constitutes a deliberate security incident in which intruder gains or attempts to gain access to a system.
+- The Zero day is a previously unknown system vulnerability with the potential of exploitation without risk of detection or prevention because it doesnot, fit recogonized patterns, signatures or methods.
+
+### Goal Of IR
+
+- Primary goal of IR is to be prepared.
+- It is aimed at reducing the impact of an incident so as to resume the operations of the system.
+
 
 ### Right plan for IR
 
@@ -47,3 +69,35 @@ Incident response (IR) is the effort to quickly identify an attack, minimize its
 - Mitigate and resolve the attack
 - Analyze and modify the plan post-attack to prevent the future ones.
 
+### Incident Response Policy
+
+- Should reference an incident response plan that all employees must follow, depending on their roles in the process.
+- The organization's vision, stragety and mission forms the policy.
+- The procedure to implement the plan should define the technical process, techniques, checklists and other tools that team will use when responding to incident.
+
+- Some of the components of  incident response plans are :
+
+    - Preparation : 
+        - Develop a policy approved by management.
+        - Identify critical data and systems, single point of failure.
+        - Train staff in incident response.
+        - Implement an incident response team
+        - Practice Incident identification
+        - Identify roles and responsibilities.
+        - Plan the coordination of communication between stakeholders.
+
+    - Detection and analysis :
+        - Monitor all possible attack vectors.
+        - Analyse incident using known data and threat intelligence
+        - Priotize incident response
+        - Standardize incident documentation
+
+    - Containment :
+        - Gather evidence
+        - Choose an appropriate containment stragety
+        - Identify the attacker.
+        - Isolate the attack
+
+    - Post-incident Activity :
+        - Identify evidence that may be retained.
+        - Document lessons learned.

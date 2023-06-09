@@ -78,3 +78,22 @@ Some of the essential components of network security infrastructure include:
 - Encryption
 - Disaster Recovery
 
+## Some insecure ports and protocols
+
+- FTP  ( PORT : 21 ) : FTP sends the username and password as plaintext from client to the server. Secure alternative is PORT : 22 , Secure File Transfer protocol (SFTP)
+
+- Telnet ( PORT : 23 ) : All information is sent in plaintext. Alternative is Secure Shell (SSH : 22)
+
+- SMTP : 25 : Default unencrypted port for sending email. Secure alternative is SMTP with TLS ( 587 )
+
+- Time (37) : Unexpected errors. Alternative is Network Time protocol (NTP) : PORT 123
+
+- DNS : 53 : Data can be modified. Alternative is DNS over TLS (DoT) : PORT 853
+
+- HTTP : 80 : Data is not encrypted and is suspectable to sniffing attacks. Alternative is HTTPS(SSL, TLS) 443
+
+- Internet Message Access Protocol (IMAP) : 143 : Protocol used for retrieveing emails. Traffic is not encrypted. Alternative is 993 IMAP over TLS, SSL
+
+- Simple Network Management Protocol (SNMP) : 161,162 : Use SNMPv3 
+
+- 

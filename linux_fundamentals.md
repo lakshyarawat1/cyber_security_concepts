@@ -361,3 +361,9 @@ Some common commands for user management in linux are :
 - To create a timer, we need to create a directory where the timer script will be stored.
 
 ``` sudo mkdir /etc/systemd/mytimer.timer.d ```
+
+- Next we need to create a script that configures the timer.
+- The script must contains following options
+    - Unit : Specifies a description for the timer.
+    - Timer : specifies when to start
+    - Install : specifies where to install the timer.
