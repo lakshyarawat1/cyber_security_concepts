@@ -367,3 +367,49 @@ Some common commands for user management in linux are :
     - Unit : Specifies a description for the timer.
     - Timer : specifies when to start
     - Install : specifies where to install the timer.
+
+- If we want to run our script only once, we should use OnBootSec.
+- If we want to run it regularly, use OnUnitActiveSec.
+
+### Create a service
+
+- ``` sudo vim /etc/systemd/system/mytimer.service ```
+- Here we set a description and specify the full path to the script we want to run.
+- The "multi-user.target" is the unit system that is activated when starting a normal multi-user mode.
+- It defines the service that should be started on normal system startup.
+
+### Reload systemd
+
+- ``` sudo systemclt daemon-reload ```
+- After that, we can use systemctl to start the service manually and enable the autostart.
+- ``` sudo systemclt start mytimer.service ```
+
+
+### Cron
+
+- Tool used for task scheduling.
+- Difficult than statemctl.
+- To setup a daemon, we need to store the tasks in a file called crontab and then tell the daemon when to run the tasks.
+
+
+## Network Services
+
+### SSH
+
+- SSH stands for secure shell, allows the secure transmission of data and commands over a network.
+- Most commonly used ssh service is OpenSSH server.
+- Install openssh server :  
+    - ``` sudo apt install openssh-server -y ```
+
+### NFS
+
+- Network File system is a network protocol that allows us to store and manage files on remote systems as if they were stored in local system.
+
+## Containerization
+
+- Packaging and running applications in isolated environments.
+
+### Docker
+
+- Open source
+- Platform for automating deployments of applications in containers.
