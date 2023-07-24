@@ -48,3 +48,4 @@
 - Means that systems and data are accessible at the time users need them.
 
 - Defined as timely and reliable access to information and the ability to use it.
+
