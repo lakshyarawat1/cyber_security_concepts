@@ -245,6 +245,14 @@
 
 - Attacker stakes out the area from a nearby location with a high-gain amplifier drowning out the legimitate AP.
 
+### Key Reinstallation attacks (KRACKs)
+
+- Attackers break the encryption between the wireless router and a wireless devices, giving them access to network data.
+- The flaws affects all modern, protected wifi networks.
+- Any attacker within the range can exploit this vulnerability.
+- The weakness is in the wifi standard itself  and not in individual products or implementations.
+- 
+
 ### Cracking WEP using Aircrack-ng
 
 - Aircrack-ng is a network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker and analysis tool for 802.11 wireless LANs.
