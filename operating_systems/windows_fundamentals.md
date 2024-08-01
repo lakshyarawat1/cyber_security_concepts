@@ -96,3 +96,5 @@
 
     - Most mobile devices do not support NTFS natively.
     - Older media such as TVs and digital camera do not support NTFS.
+
+    Get-WmiObject -Class Win32_OperatingSystem | select SystemDirectory,BuildNumber,SerialNumber,Version | ft
