@@ -119,3 +119,50 @@
     - Data residency : physical locations where the data can be stored and how and when it can be transfered, processed or accessed internationally. Depends on juridiction.
     - Data sovereignty : Data is subject to laws/regulations of the country where it is stored physically.
     - Data privacy : Providing notices and being transparent about data collection, processing, use and sharing of personal data.   
+
+## Authentication
+
+- Process of proving that a person is who they say they are.
+- Authentication confirms your identity.
+- Shortened to AuthN
+
+## Authorization
+
+- Checks whether you are authorized to do the action / access a resources according to the identity you are given.
+- Shortened to AuthZ.
+
+## Identity 
+
+- Identity may be associated with a user, application, a device or something else.
+
+### Pillars of identity infrastructure
+
+- Administration : Creation / management of identities for users, devices and services. 
+
+- Authentication : How much an IT system needs to know about an identity to have sufficient proof of its authenticity. It involves challanging a party for legitimate credentials.
+
+- Authorization : Authorization pillar is about processing the incoming identity data to determine the level of access an authenticated person or service has within the application environment.
+
+- Auditing : The auditing pillar is about tracking who does what, when, where and how. Involves having in-depth reporting, alerts and governance of identities.
+
+### Role of identity provider in Modern Authentication
+
+- In modern authentication, client communicates with the id provider by giving an identity that can be authenticated.
+- When the id has been verified, the identity provider issues a security token that the client can send to the server.
+- The server validates the security token as it is in the trust relationship with the IP.
+- Using the token, client can access the resources in the server.
+- Here a centralized identity provider is supplying the authentication service
+- One example is Microsoft Entra ID.
+
+## Directory Services and AD
+
+- A directory is a hierarchical structure that stores information about objects on the network.
+- Active Directory (AD) is a set of directory services developed by Microsoft.
+- Best known AD services is AD Domain Service.
+- AD DS is a central component in organizations with on-premises IT infrastructure.
+
+### Federation
+
+- Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between respective domain's IPs.
+- With federation, there is no need to maintain a username and password when accessing the resources in other domains.
+
