@@ -120,38 +120,49 @@
     - Data sovereignty : Data is subject to laws/regulations of the country where it is stored physically.
     - Data privacy : Providing notices and being transparent about data collection, processing, use and sharing of personal data.   
 
-## Which Framework to use ?
+## Authentication
 
-### Zero Trust RaMP initiatives
+- Process of proving that a person is who they say they are.
+- Authentication confirms your identity.
+- Shortened to AuthN
 
-- Based on initiatives designed to provide quick wins in high-impact areas.
-- RaMP stands for Remediate, Architect, Monitor, and Plan.
-- Use when you want to get started with Zero Trust and make progress quickly.
-- Organizations at early stage and Zero Trust adopters
+## Authorization
 
-### Zero Trust deployment objectives
+- Checks whether you are authorized to do the action / access a resources according to the identity you are given.
+- Shortened to AuthZ.
 
-- Detailed configuration steps for each of the tech pillers.
-- More comprehensive than RaMP.
-- Use when you want a more comprehensive guite on rolling out Zero Trust
-- Organizations who have made some progress with Zero Trust and want to continue.
+## Identity 
 
-### MCRA
+- Identity may be associated with a user, application, a device or something else.
 
-- Microsoft Cloud Risk Assessment
-- Set of diagrams that include best practices related to access control modernization initiative in Zero Trust RaMP
-- Use when you want a starting template for a security architecture, a comparison reference for security capabilities
-- Early stage adopters of Zero Trust
+### Pillars of identity infrastructure
 
-### MCSB
+- Administration : Creation / management of identities for users, devices and services. 
 
-- Microsoft Cloud Security Blueprint
-- A framework for accessing the security posture of organization's cloud env against industry standards
-- Use when you are looking for guidance how to implement security controls and monitor them for compliance.
+- Authentication : How much an IT system needs to know about an identity to have sufficient proof of its authenticity. It involves challanging a party for legitimate credentials.
 
-### CAF
+- Authorization : Authorization pillar is about processing the incoming identity data to determine the level of access an authenticated person or service has within the application environment.
 
-- Cloud Adoption Framework
-- Documentation and implementation framework for best practices throughout cloud adoption lifecycle.
-- Looking for creating and implementing busniess and tech strategies for cloud adoption.
+- Auditing : The auditing pillar is about tracking who does what, when, where and how. Involves having in-depth reporting, alerts and governance of identities.
+
+### Role of identity provider in Modern Authentication
+
+- In modern authentication, client communicates with the id provider by giving an identity that can be authenticated.
+- When the id has been verified, the identity provider issues a security token that the client can send to the server.
+- The server validates the security token as it is in the trust relationship with the IP.
+- Using the token, client can access the resources in the server.
+- Here a centralized identity provider is supplying the authentication service
+- One example is Microsoft Entra ID.
+
+## Directory Services and AD
+
+- A directory is a hierarchical structure that stores information about objects on the network.
+- Active Directory (AD) is a set of directory services developed by Microsoft.
+- Best known AD services is AD Domain Service.
+- AD DS is a central component in organizations with on-premises IT infrastructure.
+
+### Federation
+
+- Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between respective domain's IPs.
+- With federation, there is no need to maintain a username and password when accessing the resources in other domains.
 
