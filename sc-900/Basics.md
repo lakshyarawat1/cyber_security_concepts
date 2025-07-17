@@ -119,3 +119,39 @@
     - Data residency : physical locations where the data can be stored and how and when it can be transfered, processed or accessed internationally. Depends on juridiction.
     - Data sovereignty : Data is subject to laws/regulations of the country where it is stored physically.
     - Data privacy : Providing notices and being transparent about data collection, processing, use and sharing of personal data.   
+
+## Which Framework to use ?
+
+### Zero Trust RaMP initiatives
+
+- Based on initiatives designed to provide quick wins in high-impact areas.
+- RaMP stands for Remediate, Architect, Monitor, and Plan.
+- Use when you want to get started with Zero Trust and make progress quickly.
+- Organizations at early stage and Zero Trust adopters
+
+### Zero Trust deployment objectives
+
+- Detailed configuration steps for each of the tech pillers.
+- More comprehensive than RaMP.
+- Use when you want a more comprehensive guite on rolling out Zero Trust
+- Organizations who have made some progress with Zero Trust and want to continue.
+
+### MCRA
+
+- Microsoft Cloud Risk Assessment
+- Set of diagrams that include best practices related to access control modernization initiative in Zero Trust RaMP
+- Use when you want a starting template for a security architecture, a comparison reference for security capabilities
+- Early stage adopters of Zero Trust
+
+### MCSB
+
+- Microsoft Cloud Security Blueprint
+- A framework for accessing the security posture of organization's cloud env against industry standards
+- Use when you are looking for guidance how to implement security controls and monitor them for compliance.
+
+### CAF
+
+- Cloud Adoption Framework
+- Documentation and implementation framework for best practices throughout cloud adoption lifecycle.
+- Looking for creating and implementing busniess and tech strategies for cloud adoption.
+
