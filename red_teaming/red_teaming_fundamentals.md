@@ -52,6 +52,3 @@ Some limitations of Penetration testing include :
 
 - Read Team Operator : Executes assignments delegated by team leads. Interpret and analyse engagement plans from team leads.
 
-## Engagement Structure
-
-- 
