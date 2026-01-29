@@ -98,3 +98,22 @@
     - Older media such as TVs and digital camera do not support NTFS.
 
     Get-WmiObject -Class Win32_OperatingSystem | select SystemDirectory,BuildNumber,SerialNumber,Version | ft
+
+
+## CMD Commands
+
+- `set` : check all paths set in the env.
+- `ver` : version of the OS.
+- `systeminfo` - For system information.
+- `ipconfig` - Network information.
+- `tracert` - Traceroute.
+- `nslookup` - Looks up its IP address.
+- `netstat` - Current network connections and listening ports.
+  - `-a` : displays all established connections and listening ports
+  - `-b` : Shows programs associated with each listening port and established connections
+  - `-o` : reveals the process IDs associated with the connections.
+  - `-n` : Uses numerical format for addresses and port numbers.
+- `tasklist` : All running processes
+  - `tasklist /FI "imagename eq notepad.exe"` : search for a process.
+- `driverquery` : list of all installed drivers.
+- `sfc /scannow` : scans system files for corruption and repairs them if possible.

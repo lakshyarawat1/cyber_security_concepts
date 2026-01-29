@@ -7,18 +7,25 @@
     - Subjects : 
         - A subject is any entity that requests access to our assets.
         - Initiator or a request for service.
+        - Can be a user, client, process or a program.
     - Objects :
         - An Object is a device, process or person that responds to the request of a service.
         - Subject is active but an object is passive in that it takes no action until called upon by the subject.
         - An object is a building, computer, file ,database, printer or scanner, server, memory.
         - Anything that provides the subject a service.
         - Object may have a classification
+        - Subjects ask for access to objects.
     - Rules :
-        - An access rule is the instruction developed to allow or deny access to an object by comparing the validated identity of the subject to access control list.
+        - An access rule is the instruction developed to allow or deny access to an object by comparing the validated identity of the subject to access control list  .
         - Compares multiple attributes to determine appropriate access.
         - Allow access to the object.
         - Define how much access to be provided.
         - Apply time based access
+
+## Defense In Depth
+
+- Layered defense strategy
+- Like MFA
 
 ## Privileged Accounts
 
@@ -37,16 +44,19 @@ A logical access control system requires the validation of an individual's ident
 
 ## Principle of least privilege
 
+- NIST SP 800-179
 -  the principle of least privilege is a crucial aspect of any security strategy as it helps to minimize the risk of data breaches, unauthorized access, and other security threats.
 -  states that a user or process should only be granted the minimum level of access or permission necessary to perform their tasks or functions. 
 - In other words, a user should only have access to the resources and information that they need to do their job and nothing more.
 -  By granting the lowest level of access necessary, organizations can limit the damage that can be caused by an attacker who gains access to a user's account.
+
 
 ## Segregation of duties (SoD)
 
 - Segregation of duties is a security principle that involves dividing critical functions and responsibilities among multiple individuals or teams to prevent any one person from having too much control or influence over a particular process.
 
 -  This helps to prevent fraud, errors, and other security risks that may arise from having too much power concentrated in one individual.
+- 
 
 ## How users are provisioned
 
